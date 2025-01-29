@@ -1,0 +1,38 @@
+# #Sistema di stampa pari-dispari
+# pari_trovati = 0 
+# dispari_trovati = 0 
+
+# numero = int(input("Inserisci un numero: "))
+
+# if numero % 2 == 0: 
+#     pari_trovati += 1
+#     print(str(numero) + " è un numero pari")
+# else:
+#     dispari_trovati += 1
+#     print(str(numero) + " è un numero dispari")
+
+# #Sistema che stampa da n positivo a 0 compreso all'infinito
+
+# while True:
+#     positivo = int(input("Inserisci il numero positivo: "))
+    
+#     for i in range(positivo, -1, -1):
+#         print(i)
+
+#     ripetizione = input("Vuoi continuare? si/no ")
+#     if ripetizione == "no":
+#         break
+
+# #Sistema che prende l'input di una lista di numeri e ne stampa il quadrato
+# quanti_numeri = int(input("Quanti numeri vuoi aggiungere alla lista? "))
+# lista = []
+
+# while len(lista)<=quanti_numeri:
+#     numeri = int(input("Quali numeri vuoi aggiungere alla lista? "))
+#     lista.append(numeri)
+#     (print(numeri ** 2))
+
+#Sistema che prende un input di una lista trovando il numero massimo, deve contare quanti numeri sono presenti nella lista e stampare lista vuota se vuota altrimenti deve stampare il numero massimo
+
+numeri_lista = int(input("Quanti numeri vuoi aggiungere alla lista? "))
+lista_pippo = []
